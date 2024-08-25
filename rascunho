@@ -1,22 +1,23 @@
+
 Este projeto, seguirar uma metodologia diferente dos demais anteriores a este, será feito baseado em um projeto de outro aluno(a), no caso este link(). Por fim, terá no meu respositório dois notebook, o que segue o da minha colega mais uma reflexão quando descordar do caminho tomado ou desenvolvido mais subjetivo, não que eu seja voz da razão, sei que aprenderei muito com ela. Por último, um notebook final, que será mais enchuto, por ser construído após a aula do professor Meigram!  
 
-InvoiceNo:    		Número da fatura (um número integral de 6 dígitos atribuído exclusivamente a cada transação)
+invoice_no:    		Número da fatura (um número integral de 6 dígitos atribuído exclusivamente a cada transação)
 
-StockCode:    		Código do produto (item)
+stock_code:    		Código do produto (item)
 
-Description:  		Product (item) name
+description:  		Product (item) name
 
-Quantity:     		As quantidades de cada produto (item) por transação
+quantity:     		As quantidades de cada produto (item) por transação
 
-InvoiceDate:  		O dia em que cada transação foi gerada
+invoice_date:  		O dia em que cada transação foi gerada
 
-UnitPrice:    		Preço unitário (Preço do produto por unidade)
+unit_price:    		Preço unitário (Preço do produto por unidade)
 
-CustomerID:   		Número do cliente (ID exclusivo atribuído a cada cliente)
+customer_id:   		Número do cliente (ID exclusivo atribuído a cada cliente)
 
-Country:      		Nome do país (O nome do país onde cada cliente reside)
+country:      		Nome do país (O nome do país onde cada cliente reside)
 
-gross_revenue:  	O total que o cliente já gastou, em 2016 a 2017 ou em todo dataset fornecido
+gross_revenue:  	O total que o cliente gastou em um pedido, 
 
 returned: 			Informa se pedido retornou ou foi cancelado.
 
@@ -26,4 +27,5 @@ quantity_purchased: Quantidade de vezes que o cliente comprou.
 
 total_items:       	Total de items comprado pelo cliente no período do dataset.
 
+variety_products:	Variedade de produtos comprado pelo cliente.
 
