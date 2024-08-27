@@ -29,3 +29,12 @@ total_items:       	Total de items comprado pelo cliente no período do dataset.
 
 variety_products:	Variedade de produtos comprado pelo cliente.
 
+interval_mean       A média dos intervalos de compra do cliente.
+
+interval_std        O desvio padrão da média dos intervalos de compra do cliente.
+
+n_buy				Número de vezes que o cliente comprou.
+
+avg_basket_size:	Média de itens por cesta
+
+avg_product_basket: Média de variadade de produtos por cesta.
