@@ -1,5 +1,5 @@
 
-Este projeto, seguirar uma metodologia diferente dos demais anteriores a este, será feito baseado em um projeto de outro aluno(a), no caso este link(). Por fim, terá no meu respositório dois notebook, o que segue o da minha colega mais uma reflexão quando descordar do caminho tomado ou desenvolvido mais subjetivo, não que eu seja voz da razão, sei que aprenderei muito com ela. Por último, um notebook final, que será mais enchuto, por ser construído após a aula do professor Meigram!  
+Este projeto, seguirar uma metodologia diferente dos demais anteriores a este, será feito baseado em um projeto de outro aluno(a), como o propósito é gera conhecimento, e não ofender ou denegrir a imagem deste, não será informado o autor do trabalho original. Por fim, Encontra-se no meu respositório três notebooks, primeiro, o original( intitulado - original) com os comentários do que será feito ou no que errou-se, segundo, o comentado( intitulado - comentado ) o que segue o do autor mais umas reflexões quando descordar do caminho tomado ou desenvolvido do código, terceiro, o final( intutulado - final ), será realizado após assistir as aulas do curso Projeto: Programa de Fidelidade com Clusterização. Quero deixar claro, não sou a voz da razão, e aprendir muito com o trabalho do(a) colega.  
 
 invoice_no:    		Número da fatura (um número integral de 6 dígitos atribuído exclusivamente a cada transação)
 
@@ -29,6 +29,8 @@ total_items:       	Total de items comprado pelo cliente no período do dataset.
 
 variety_products:	Variedade de produtos comprado pelo cliente.
 
+avg_per_purchase: 	Quantidade média gasta pelo cliente por pedido
+
 interval_mean       A média dos intervalos de compra do cliente.
 
 interval_std        O desvio padrão da média dos intervalos de compra do cliente.
@@ -38,3 +40,58 @@ n_buy				Número de vezes que o cliente comprou.
 avg_basket_size:	Média de itens por cesta
 
 avg_product_basket: Média de variadade de produtos por cesta.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bom dia! Claro! Aqui está uma lista de algumas transformações comuns de dados, além do MinMaxScaler, incluindo recomendações de uso e situações em que não são adequadas.
+
+### 1. **StandardScaler**
+- **Recomendado para**: Dados que seguem uma distribuição normal (gaussiana) ou quando se deseja centrar os dados em torno de zero e escalá-los para ter desvio padrão igual a 1.
+- **Não recomendado quando**: Os dados contêm outliers significativos, pois esses podem distorcer a média e o desvio padrão, levando a uma transformação inadequada.
+
+### 2. **RobustScaler**
+- **Recomendado para**: Dados que contêm outliers significativos. Utiliza a mediana e o intervalo interquartil para escalar os dados.
+- **Não recomendado quando**: Os dados não têm outliers, pois a transformação pode não ser tão eficiente quanto o StandardScaler para dados gaussianos.
+
+### 3. **Power Transformer (Box-Cox e Yeo-Johnson)**
+- **Recomendado para**: Normalizar dados e reduzir a assimetria. Útil quando os dados não seguem uma distribuição normal.
+- **Não recomendado quando**: Aplicado a dados que já estão normalmente distribuídos, pois pode levar a distorções desnecessárias.
+
+### 4. **Log Transformation**
+- **Recomendado para**: Dados que apresentam uma distribuição assimétrica ou com muitos valores altos, ajudando a estabilizar a variância.
+- **Não recomendado quando**: Os dados contêm valores zero ou negativos, já que a transformação logarítmica não está definida nesses casos.
+
+### 5. **Quantile Transformer**
+- **Recomendado para**: Transformar os dados para uma distribuição uniforme ou normal. Muito útil para lidar com outliers.
+- **Não recomendado quando**: A distribuição original dos dados é importante para o modelo, pois a transformação pode alterar relações essenciais.
+
+### 6. **Binarizer**
+- **Recomendado para**: Situations onde se deseja transformar dados contínuos em dados binários com base em um limiar.
+- **Não recomendado quando**: Informações sutis nos dados são importantes, pois a binarização pode perder essa informação.
+
+### 7. **Polynomial Features**
+- **Recomendado para**: Modelos que se beneficiam de interações e termos quadráticos, especialmente em regressões polinomiais.
+- **Não recomendado quando**: O número de variáveis aumentadas torna-se muito grande, levando ao overfitting.
+
+### 8. **One-Hot Encoding**
+- **Recomendado para**: Transformar variáveis categóricas em variáveis binárias, particularmente útil para algoritmos que não lidam bem com dados categóricos.
+- **Não recomendado quando**: Os dados têm um número elevado de categorias, pois isso pode resultar em grandes conjuntos esparsos e ineficiência computacional.
+
+Essas transformações podem ser cruciais para melhorar o desempenho dos modelos de machine learning, permitindo que os dados se adequem melhor aos algoritmos escolhidos. É sempre uma boa prática analisar a distribuição dos dados e o impacto que cada transformação pode ter. 
