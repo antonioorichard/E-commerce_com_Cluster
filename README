@@ -53,7 +53,9 @@ avg_product_basket: Média de variadade de produtos por cesta.
 
 
 
-
+git remote add origin https://github.com/antonioorichard/E-commerce_com_Cluster.git
+git branch -M main
+git push -u origin main
 
 
 
