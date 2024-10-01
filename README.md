@@ -57,7 +57,6 @@ Produto de dados solicitado:
   
 
 Variável | Definição 
-
 ------------ | ------------- 
 |invoice_no:|    		Número da fatura (um número integral de 6 dígitos atribuído exclusivamente a cada transação)| 
 |stock_code:|    		Código do produto (item)| 
