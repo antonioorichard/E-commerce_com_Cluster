@@ -1,47 +1,149 @@
+![Analyzing customer groups](image/Enis_Can_Ceyhan_ecommerce.jpg)
 
-Este projeto, seguirar uma metodologia diferente dos demais anteriores a este, será feito baseado em um projeto de outro aluno(a), como o propósito é gera conhecimento, e não ofender ou denegrir a imagem deste, não será informado o autor do trabalho original. Por fim, Encontra-se no meu respositório três notebooks, primeiro, o original( intitulado - original) com os comentários do que será feito ou no que errou-se, segundo, o comentado( intitulado - comentado ) o que segue o do autor mais umas reflexões quando descordar do caminho tomado ou desenvolvido do código, terceiro, o final( intutulado - final ), será realizado após assistir as aulas do curso Projeto: Programa de Fidelidade com Clusterização. Quero deixar claro, não sou a voz da razão, e aprendir muito com o trabalho do(a) colega.  
-
-invoice_no:    		Número da fatura (um número integral de 6 dígitos atribuído exclusivamente a cada transação)
-
-stock_code:    		Código do produto (item)
-
-description:  		Product (item) name
-
-quantity:     		As quantidades de cada produto (item) por transação
-
-invoice_date:  		O dia em que cada transação foi gerada
-
-unit_price:    		Preço unitário (Preço do produto por unidade)
-
-customer_id:   		Número do cliente (ID exclusivo atribuído a cada cliente)
-
-country:      		Nome do país (O nome do país onde cada cliente reside)
-
-gross_revenue:  	O total que o cliente gastou em um pedido, 
-
-returned: 			Informa se pedido retornou ou foi cancelado.
-
-recency_days:		A quantidade de dias que o cliente fez sua última compra em relação ao último dia do dataset ou data máxima.
-
-quantity_purchased: Quantidade de vezes que o cliente comprou.
-
-total_items:       	Total de items comprado pelo cliente no período do dataset.
-
-variety_products:	Variedade de produtos comprado pelo cliente.
-
-avg_per_purchase: 	Quantidade média gasta pelo cliente por pedido
-
-interval_mean       A média dos intervalos de compra do cliente.
-
-interval_std        O desvio padrão da média dos intervalos de compra do cliente.
-
-n_buy				Número de vezes que o cliente comprou.
-
-avg_basket_size:	Média de itens por cesta
-
-avg_product_basket: Média de variadade de produtos por cesta.
+Olá, seja bem-vindo(a)!
 
 
+Este projeto, seguirar uma metodologia diferente dos demais anteriores, será feito iniciamente baseado em um projeto de outro aluno(a), como o propósito é gera conhecimento e não ofender ou denegrir a imagem deste, não será informado o autor do trabalho original. Por fim, Encontra-se no meu respositório cinco notebooks. Ṕrimeiro, o original( intitulado como notebook_reference ). Segundo, o comentado, intitulado como pa05-end que segue o trabalho do autor, mas umas reflexões quando descordar do caminho tomado ou desenvolvido do código. Terceiro e quarto são notebooks com o código do deploy do projeto, tendo sido intitulados como pa05-deploy_local e pa05-deploy_local. Por último, o notebook (Planejamento)  obervações gerada durante as aulas do curso da comunidade DS.  
+
+## 1. Problema de negócios
+### 1.1 Problema
+O CFO da empresa fez uma reunião e gostaria de entender melhor que são os clientes da empresa, para tomar iniciativas mais eficazes em marketing e promoção etc.
+ 
+### 1.2 Motivação
+O CFO está querendo realizar uma promoção personalizada para cada grupo de clientes.
+
+
+### 1.3 Demandas de negócio
+
+Produto de dados solicitado:
+* Uma clusterização com descrição das características dos melhores clientes.
+
+
+## 2. Premissas de negócio
+
+- O planejamento da solução será validado com os times de negócio, visando garantir que as soluções desenvolvidas sejam úteis na sua tomada de decisão.
+
+#### As variáveis do dataset original são:
+
+
+Variável | Definição
+------------ | -------------
+|invoice_no:|    		Número da fatura (um número integral de 6 dígitos atribuído exclusivamente a cada transação)|
+
+|stock_code:|    		Código do produto (item)|
+
+|description:|  		Product (item) name|
+
+|quantity:|     		As quantidades de cada produto (item) por transação|
+
+|invoice_date:|  		O dia em que cada transação foi gerada|
+
+|unit_price:|    		Preço unitário (Preço do produto por unidade)|
+
+|customer_id:|   		Número do cliente (ID exclusivo atribuído a cada cliente)|
+
+|country:|      		Nome do país (O nome do país onde cada cliente reside)|
+
+
+#### As variáveis do dataset criadas são:
+
+
+Variável | Definição
+------------ | -------------
+|gross_revenue:|  	O total que o cliente gastou em um pedido. |
+
+|returned: |			Informa se pedido retornou ou foi cancelado.|
+
+|recency_days:|		A quantidade de dias que o cliente fez sua última compra em relação ao último dia do dataset ou data máxima.|
+
+|quantity_purchased: |Quantidade de vezes que o cliente comprou.|
+
+|total_items:    |   	Total de items comprado pelo cliente no período do dataset.|
+
+|variety_products:|	Variedade de produtos comprado pelo cliente.|
+
+|avg_per_purchase: |	Quantidade média gasta pelo cliente por pedido|
+
+|interval_mean     |  A média dos intervalos de compra do cliente.|
+
+|interval_std     |   O desvio padrão da média dos intervalos de compra do cliente.|
+
+|n_buy		|		Número de vezes que o cliente comprou.|
+
+|avg_basket_size: |	Média de itens por cesta|
+
+|avg_product_basket:| Média de variadade de produtos por cesta.|
+
+
+## 3. Planejamento da solução
+
+### 3.1. Produto final
+
+O que será entregue efetivamente?
+- Um bot no Telegram onde vai ser necessário enviar um código da loja.
+
+ ### 3.2. Ferramentas
+
+Quais ferramentas serão usadas no processo?
+- Pyenv;
+- Jupyter Notebook;
+- Git, Github;
+- Python;
+- Google Sheets;
+- Sistema Linux.
+
+## 4. Os 3 principais insights dos clientes
+
+#### 1 Qual o período do ano que mais vende ?
+
+* 1. Novembro 
+* 2. Outubro 
+* 3. Setembro.
+
+* Insight de negócio: Como se trata de um ecommerce de produtos voltados para presentes, existe um aumento significativo de vendas nós meses de Setembro até a Novembro. O que pode ser explicado no que se refere aos meses próximo do natal e festividades. Contudo, nota se compras em atacado, oque remete a presença de revendendores, principalmente para o mês de outrobro.  Empresa pode abraça dando promoção a esses atacandistas ou limitar a quantidade de compra para aqueles produtos que tem uma previsão alta de vendas entre os dois últimos meses do ano.
+
+
+#### 2 Qual o período do ano que menos vende ?
+
+* 1. Dezembro 
+* 2. Fevereiro  
+* 3. Abril
+
+
+
+#### 3 Qual país é do cliente que mais compra ?
+
+* United Kingdom, o que era de espera já que maior parte das vendas é para United Kingdom.
+
+* Insight de negócio: É necessário uma pesquisa para saber o motivo das vendas está concentrado mais em United Kingdom.
+
+## 5. Resultados para o negócio
+### 5.1 Resultados do cluster
+### 5.2 Mapa dos cluster encontrado
+
+De acordo com os critérios definidos, foi segmentado os clientes em 13 grupos, embora não seja o melhor resultado mais apresenta um bom resultado, o motivo da escolha de 13 em vez do melhor resultado é facilidade para trabalhar com clientes.   . Como resultado para o negócio foram criados:
+
+* Uma API onde será feita a previsão de vendas
+
+* Um BOT no Telegram onde o CFO e os gerentes de lojas poderão enviar o código da loja para prever a venda.
+
+## 5. Conclusão
+* O objetivo do projeto foi alcançado, dado que os produtos de dados propostos foram gerados com sucesso. O CFO e os gerentes já podem utilizar a solução para a tomada de decisão.
+
+O Bot no Telegram pode ser  acessado por [rossmann_bot](https://t.me/Rosssmann_bot).
+
+https://docs.google.com/spreadsheets/d/1sODujh6S8vNwnoUkBMuaOJWzYAolyqs-JhU4cWSq5oo/edit?usp=sharing
+## 7. Próximos passos
+
+Algumas melhorias no projeto podem ser incrementadas no futuro:
+
+* Carregar um dados em um servidor
+* Deploy do modelo
+* Criar um botão com api do modelo de Machine Learning no google sheets para que resultado seja emitido nele com as médias de característica dos clientes.
+
+## 6 Referências
+* Este Projeto foi feito como parte do curso "DS em Produção", da [Comunidade DS](https://www.comunidadedatascience.com/).
+* O Dataset foi obtido no [Kaggle](https://www.kaggle.com/c/rossmann-store-sales/data).
 
 
 
@@ -53,47 +155,11 @@ avg_product_basket: Média de variadade de produtos por cesta.
 
 
 
-git remote add origin https://github.com/antonioorichard/E-commerce_com_Cluster.git
-git branch -M main
-git push -u origin main
 
 
 
 
 
 
-Bom dia! Claro! Aqui está uma lista de algumas transformações comuns de dados, além do MinMaxScaler, incluindo recomendações de uso e situações em que não são adequadas.
-
-### 1. **StandardScaler**
-- **Recomendado para**: Dados que seguem uma distribuição normal (gaussiana) ou quando se deseja centrar os dados em torno de zero e escalá-los para ter desvio padrão igual a 1.
-- **Não recomendado quando**: Os dados contêm outliers significativos, pois esses podem distorcer a média e o desvio padrão, levando a uma transformação inadequada.
-
-### 2. **RobustScaler**
-- **Recomendado para**: Dados que contêm outliers significativos. Utiliza a mediana e o intervalo interquartil para escalar os dados.
-- **Não recomendado quando**: Os dados não têm outliers, pois a transformação pode não ser tão eficiente quanto o StandardScaler para dados gaussianos.
-
-### 3. **Power Transformer (Box-Cox e Yeo-Johnson)**
-- **Recomendado para**: Normalizar dados e reduzir a assimetria. Útil quando os dados não seguem uma distribuição normal.
-- **Não recomendado quando**: Aplicado a dados que já estão normalmente distribuídos, pois pode levar a distorções desnecessárias.
-
-### 4. **Log Transformation**
-- **Recomendado para**: Dados que apresentam uma distribuição assimétrica ou com muitos valores altos, ajudando a estabilizar a variância.
-- **Não recomendado quando**: Os dados contêm valores zero ou negativos, já que a transformação logarítmica não está definida nesses casos.
-
-### 5. **Quantile Transformer**
-- **Recomendado para**: Transformar os dados para uma distribuição uniforme ou normal. Muito útil para lidar com outliers.
-- **Não recomendado quando**: A distribuição original dos dados é importante para o modelo, pois a transformação pode alterar relações essenciais.
-
-### 6. **Binarizer**
-- **Recomendado para**: Situations onde se deseja transformar dados contínuos em dados binários com base em um limiar.
-- **Não recomendado quando**: Informações sutis nos dados são importantes, pois a binarização pode perder essa informação.
-
-### 7. **Polynomial Features**
-- **Recomendado para**: Modelos que se beneficiam de interações e termos quadráticos, especialmente em regressões polinomiais.
-- **Não recomendado quando**: O número de variáveis aumentadas torna-se muito grande, levando ao overfitting.
-
-### 8. **One-Hot Encoding**
-- **Recomendado para**: Transformar variáveis categóricas em variáveis binárias, particularmente útil para algoritmos que não lidam bem com dados categóricos.
-- **Não recomendado quando**: Os dados têm um número elevado de categorias, pois isso pode resultar em grandes conjuntos esparsos e ineficiência computacional.
-
-Essas transformações podem ser cruciais para melhorar o desempenho dos modelos de machine learning, permitindo que os dados se adequem melhor aos algoritmos escolhidos. É sempre uma boa prática analisar a distribuição dos dados e o impacto que cada transformação pode ter. 
+#### **Observação: **
+**Python 3.12.3**
