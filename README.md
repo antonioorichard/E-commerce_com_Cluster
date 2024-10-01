@@ -59,21 +59,13 @@ Produto de dados solicitado:
 Variável | Definição 
 
 ------------ | ------------- 
-
 |invoice_no:|    		Número da fatura (um número integral de 6 dígitos atribuído exclusivamente a cada transação)| 
-
 |stock_code:|    		Código do produto (item)| 
-
 |description:|  		Product (item) name| 
-
 |quantity:|     		As quantidades de cada produto (item) por transação| 
-
 |invoice_date:|  		O dia em que cada transação foi gerada| 
-
 |unit_price:|    		Preço unitário (Preço do produto por unidade)| 
-
 |customer_id:|   		Número do cliente (ID exclusivo atribuído a cada cliente)| 
-
 |country:|      		Nome do país (O nome do país onde cada cliente reside)| 
 
   
@@ -87,31 +79,18 @@ Variável | Definição
   
 
 Variável | Definição 
-
 ------------ | ------------- 
-
 |gross_revenue:|  	O total que o cliente gastou em um pedido. | 
-
 |returned: |			Informa se pedido retornou ou foi cancelado.| 
-
 |recency_days:|		A quantidade de dias que o cliente fez sua última compra em relação ao último dia do dataset ou data máxima.| 
-
 |quantity_purchased: |Quantidade de vezes que o cliente comprou.| 
-
 |total_items:    |   	Total de items comprado pelo cliente no período do dataset.| 
-
 |variety_products:|	Variedade de produtos comprado pelo cliente.| 
-
 |avg_per_purchase: |	Quantidade média gasta pelo cliente por pedido| 
-
 |interval_mean     |  A média dos intervalos de compra do cliente.| 
-
 |interval_std     |   O desvio padrão da média dos intervalos de compra do cliente.| 
-
 |n_buy		|		Número de vezes que o cliente comprou.| 
-
 |avg_basket_size: |	Média de itens por cesta| 
-
 |avg_product_basket:| Média de variedade de produtos por cesta.| 
 
   
