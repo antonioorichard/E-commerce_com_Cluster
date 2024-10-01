@@ -1,4 +1,4 @@
-![Analyzing customer groups](image/Enis_Can_Ceyhan_ecommerce.jpg)
+![Analyzing customer groups](image/online-shopping-4532460_640.jpg)
 
 Olá, seja bem-vindo(a)!
 
@@ -129,7 +129,7 @@ Como resultado para o negócio foram criados:
 Planilha no google sheets [Planilha com resultados do perfil dos grupos](https://docs.google.com/spreadsheets/d/1sODujh6S8vNwnoUkBMuaOJWzYAolyqs-JhU4cWSq5oo/edit?usp=sharing).
 
 
-![Planilha com a média do perfil dos grupos](image/resul.jpg)
+![Planilha com a média do perfil dos grupos](image/result.jpg)
 
 Em relação ao tons de cores deve intepretar em relação o quanto este grupo dar lucro a empresa verde e azul são cores que quanto mais fortes mais dar lucro. já as demais cores quanto mais forte menos da lucro. Observação a tabela já está organizada neste sentido.
 
