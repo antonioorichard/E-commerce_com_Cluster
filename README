@@ -3,14 +3,14 @@
 Olá, seja bem-vindo(a)!
 
 
-Este projeto, seguirar uma metodologia diferente dos demais anteriores, será feito iniciamente baseado em um projeto de outro aluno(a), como o propósito é gera conhecimento e não ofender ou denegrir a imagem deste, não será informado o autor do trabalho original. Por fim, Encontra-se no meu respositório cinco notebooks. Ṕrimeiro, o original( intitulado como notebook_reference ). Segundo, o comentado, intitulado como pa05-end que segue o trabalho do autor, mas umas reflexões quando descordar do caminho tomado ou desenvolvido do código. Terceiro e quarto são notebooks com o código do deploy do projeto, tendo sido intitulados como pa05-deploy_local e pa05-deploy_local. Por último, o notebook (Planejamento)  obervações gerada durante as aulas do curso da comunidade DS.  
+Este projeto, seguirar uma metodologia diferente dos demais anteriores, será feito iniciamente baseado em um projeto de outro aluno(a), como o propósito é gera conhecimento e não ofender ou denegrir a imagem deste, não será informado o autor do trabalho original. Por fim, Encontra-se no meu respositório cinco notebooks. Ṕrimeiro, o original intitulado como notebook_reference.ipynb. Segundo, o comentado, intitulado como pa05-end.ipynb que segue o trabalho do autor, mas umas reflexões quando descordar do caminho tomado ou desenvolvido do código por minha parte. Terceiro e quarto são notebooks com o código do deploy do projeto, tendo sido intitulados como pa05-deploy_local e pa05-deploy_local. Por último, o notebook Planejamento.ipynb, neste, está as observações gerada durante as aulas do curso da comunidade DS.  
 
 ## 1. Problema de negócios
 ### 1.1 Problema
-O CFO da empresa fez uma reunião e gostaria de entender melhor que são os clientes da empresa, para tomar iniciativas mais eficazes em marketing e promoção etc.
+O time de negócio da empresa fez uma reunião e gostaria de entender melhor quem são os clientes da empresa para tomar iniciativas mais eficazes em marketing e promoção etc.
  
 ### 1.2 Motivação
-O CFO está querendo realizar uma promoção personalizada para cada grupo de clientes.
+A empreresa está querendo realizar uma promoção personalizada para cada grupo de clientes.
 
 
 ### 1.3 Demandas de negócio
@@ -80,7 +80,9 @@ Variável | Definição
 ### 3.1. Produto final
 
 O que será entregue efetivamente?
-- Um bot no Telegram onde vai ser necessário enviar um código da loja.
+- Uma planilha com características dos clientes.
+- Insight sobre o negócio.
+- Divisão dos clientes em segmentos. 
 
  ### 3.2. Ferramentas
 
@@ -100,7 +102,7 @@ Quais ferramentas serão usadas no processo?
 * 2. Outubro 
 * 3. Setembro.
 
-* Insight de negócio: Como se trata de um ecommerce de produtos voltados para presentes, existe um aumento significativo de vendas nós meses de Setembro até a Novembro. O que pode ser explicado no que se refere aos meses próximo do natal e festividades. Contudo, nota se compras em atacado, oque remete a presença de revendendores, principalmente para o mês de outrobro.  Empresa pode abraça dando promoção a esses atacandistas ou limitar a quantidade de compra para aqueles produtos que tem uma previsão alta de vendas entre os dois últimos meses do ano.
+* Insight de negócio: Como se trata de um ecommerce de produtos voltados para presentes, existe um aumento significativo de vendas nós meses de Setembro até a Novembro. O que pode ser explicado no que se refere aos meses próximo do natal e festividades. Contudo, nota se compras em atacado, o que remete a presença de revendendores, principalmente para o mês de outubro.  A empresa pode abraça dando promoção a esses atacandistas ou limitar a quantidade de compra para aqueles produtos que tem uma previsão alta de vendas entre os dois últimos meses do ano, e buscar fazer elas mesmo a venda neste mercado.
 
 
 #### 2 Qual o período do ano que menos vende ?
@@ -117,22 +119,38 @@ Quais ferramentas serão usadas no processo?
 
 * Insight de negócio: É necessário uma pesquisa para saber o motivo das vendas está concentrado mais em United Kingdom.
 
+
 ## 5. Resultados para o negócio
+
 ### 5.1 Resultados do cluster
+
+![Silhouete Score](image/silhouete_score.jpg)
+
 ### 5.2 Mapa dos cluster encontrado
 
-De acordo com os critérios definidos, foi segmentado os clientes em 13 grupos, embora não seja o melhor resultado mais apresenta um bom resultado, o motivo da escolha de 13 em vez do melhor resultado é facilidade para trabalhar com clientes.   . Como resultado para o negócio foram criados:
+![Silhouete Score](image/mapa_cluster.jpg)
 
-* Uma API onde será feita a previsão de vendas
+De acordo com os critérios definidos, foi segmentado os clientes em 13 grupos, embora não seja o melhor resultado como mostra a imagem da seção 5.1, mas apresenta um bom resultado. O motivo da escolha de 13 clusters em vez do melhor resultado é facilidade para trabalhar com clientes em menos grupos
 
-* Um BOT no Telegram onde o CFO e os gerentes de lojas poderão enviar o código da loja para prever a venda.
+Como resultado para o negócio foram criados:
+
+* Dataset ou conjunto de dados em sqlite.
+
+* Resultados no excel, caraterizando os principais clientes.
+
+* Insights sobre os negócio e principais clientes.
 
 ## 5. Conclusão
-* O objetivo do projeto foi alcançado, dado que os produtos de dados propostos foram gerados com sucesso. O CFO e os gerentes já podem utilizar a solução para a tomada de decisão.
 
-O Bot no Telegram pode ser  acessado por [rossmann_bot](https://t.me/Rosssmann_bot).
+* O objetivo do projeto foi alcançado, dado que os produtos de dados propostos foram gerados com sucesso. O time de negócio irar utilizar para a tomada de decisão.
 
-https://docs.google.com/spreadsheets/d/1sODujh6S8vNwnoUkBMuaOJWzYAolyqs-JhU4cWSq5oo/edit?usp=sharing
+Planilha no google sheets [Planilha com resultados do perfil dos grupos](https://docs.google.com/spreadsheets/d/1sODujh6S8vNwnoUkBMuaOJWzYAolyqs-JhU4cWSq5oo/edit?usp=sharing).
+
+
+![Planilha com a média do perfil dos grupos](image/resul.jpg)
+
+Em relação ao tons de cores deve intepretar em relação o quanto este grupo dar lucro a empresa verde e azul são cores que quanto mais fortes mais dar lucro. já as demais cores quanto mais forte menos da lucro. Observação a tabela já está organizada neste sentido.
+
 ## 7. Próximos passos
 
 Algumas melhorias no projeto podem ser incrementadas no futuro:
@@ -140,10 +158,11 @@ Algumas melhorias no projeto podem ser incrementadas no futuro:
 * Carregar um dados em um servidor
 * Deploy do modelo
 * Criar um botão com api do modelo de Machine Learning no google sheets para que resultado seja emitido nele com as médias de característica dos clientes.
+* Deixar um dashbord no streamlit ou metabase com informações dos dados.
 
 ## 6 Referências
 * Este Projeto foi feito como parte do curso "DS em Produção", da [Comunidade DS](https://www.comunidadedatascience.com/).
-* O Dataset foi obtido no [Kaggle](https://www.kaggle.com/c/rossmann-store-sales/data).
+* O Dataset foi obtido no [UC irvine](https://archive.ics.uci.edu/dataset/502/online+retail+ii).
 
 
 
