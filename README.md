@@ -183,7 +183,7 @@ Quais ferramentas serão usadas no processo?
 
   
 
-## 4. Os 3 principais insights deste negócio 
+## 4. 3 insights deste negócio 
 
   
 
@@ -221,7 +221,7 @@ Quais ferramentas serão usadas no processo?
 
   
 
-#### 3 Qual país é do cliente que mais compra? 
+#### 3 Qual país do maior cliente? 
 
   
 
