@@ -34,9 +34,9 @@
 ## 0.6 Impacto da solução
 
 * Personalizar a experiência ou adptar
- * Comunição.
- * Ofertas.
- * Recomendação.
+  * Comunição.
+  * Ofertas.
+  * Recomendação.
 * Segmentação de Marketing mais eficientes.
 * Otimização do Estoque.
 
