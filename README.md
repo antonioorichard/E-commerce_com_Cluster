@@ -273,12 +273,12 @@ Como resultado para o negócio foram criados:
 
 * Insights sobre os negócios e principais clientes. 
 	
-	* Os clientes insider representa 14,21% da base cliente
+	* Os clientes insider representa 14,21% da base de cliente
 	* Os clientes insider representa 75,33% da receita gerada.
 	* Os clientes insider compra uma grande quantidade de produtos.
-	* Os clientes insider tem maior número de retorno, isso pode ser devido os atacandistas compra em grande quantidade, então ao cancelar é número grande de retorno.
+	* Os clientes insider tem maior número de retorno, isso pode ser devido os atacandistas compram em grande quantidade, então ao cancelar é número grande de retorno.
     * Os clientes insider tem uma intervalo médio de 32 dias para realizar novamente uma compra.
-    * Observação: Pode ser tirado mais informações das features criadas.
+    * Observação: Pode ser tirado mais informações das features criadas em relação aos clientes.
   
 
 ## 5. Conclusão 
