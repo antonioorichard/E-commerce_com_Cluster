@@ -183,7 +183,7 @@ Quais ferramentas serão usadas no processo?
 
   
 
-## 4. Os 3 principais insights dos clientes 
+## 4. Os 3 principais insights deste negócio 
 
   
 
