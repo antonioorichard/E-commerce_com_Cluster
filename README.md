@@ -265,7 +265,7 @@ De acordo com os critérios definidos, foi segmentado os clientes em 13 grupos, 
 
   
 
-Em relação aos tons de cores deve interpretar em relação ao quanto este grupo dar lucro a empresa verde e azul são cores que quanto mais fortes mais dar lucro. já as demais cores quanto mais forte menos dá lucro. Observação a tabela já está organizada neste sentido. 
+Em relação aos tons de cores deve interpretar o quanto este grupo dar lucro a empresa verde e azul são cores que quanto mais fortes mais dar lucro. já as demais cores quanto mais forte menos dá lucro em comparação aos outros. Observação a tabela já está organizada neste sentido. 
 
 * Dataset ou conjunto de dados em sqlite. 
 
