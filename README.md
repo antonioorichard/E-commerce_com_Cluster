@@ -2,7 +2,48 @@
 
 ![Analyzing customer groups](image/online-shopping-4532460_640.jpg) 
 
-  
+______________________________________________________________________________________________________________________
+
+# 0 Resumo sobre o projeto
+
+# 0.1 Modelo de Negócio
+
+* E-commerce
+
+## 0.2 Sede da empresa
+
+* Reino Unido
+
+## 0.3 Tipo de produto
+ 
+* Presentes exclusivos.
+
+## 0.4 Problema
+
+* Falta de conhecimento sobre os clientes está levando a ter.
+   * Taxa de Retenção Baixa
+   * Falta de Personalização
+   * Gestão Ineficiente do Estoque
+   * Inabilidades em Prever Tendências de Mercado
+   * Problemas de Atendimento ao Cliente
+ 
+
+## 0.5 Solução
+
+* Cluster - Segmentar a base de clientes.
+  * Insights
+
+## 0.6 Impacto da solução
+
+* Personalizar a experiência ou adptar
+ * Comunição.
+ * Ofertas.
+ * Recomendação.
+* Segmentação de Marketing mais eficientes.
+* Otimização do Estoque.
+  ... 
+______________________________________________________________________________________________________________________
+
 
 Olá, seja bem-vindo(a)! 
 
@@ -16,13 +57,18 @@ Este projeto, seguirá uma metodologia diferente dos demais anteriores, será fe
 
 ## 1. Problema de negócios 
 
-### 1.1 Problema 
+### 1.1 Sobre a empresa 
+
+
+
+
+### 1.2 Problema 
 
 O time de negócio da empresa fez uma reunião e gostaria de entender melhor quem são os clientes da empresa para tomar iniciativas mais eficazes em marketing e promoção etc. 
 
   
 
-### 1.2 Motivação 
+### 1.3 Motivação 
 
 A empresa está querendo realizar uma promoção personalizada para cada grupo de clientes. 
 
@@ -30,7 +76,7 @@ A empresa está querendo realizar uma promoção personalizada para cada grupo d
 
   
 
-### 1.3 Demandas de negócio 
+### 1.4 Demandas de negócio 
 
   
 
