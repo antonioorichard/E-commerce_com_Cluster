@@ -272,7 +272,13 @@ Como resultado para o negócio foram criados:
   
 
 * Insights sobre os negócios e principais clientes. 
-
+	
+	* Os clientes insider representa 14,21% da base cliente
+	* Os clientes insider representa 75,33% da receita gerada.
+	* Os clientes insider compra uma grande quantidade de produtos.
+	* Os clientes insider tem maior número de retorno, isso pode ser devido os atacandistas compra em grande quantidade, então ao cancelar é número grande de retorno.
+    * Os clientes insider tem uma intervalo médio de 32 dias para realizar novamente uma compra.
+    * Observação: Pode ser tirado mais informações das features criadas.
   
 
 ## 5. Conclusão 
@@ -297,7 +303,7 @@ Em relação aos tons de cores deve interpretar em relação ao quanto este grup
 
   
 
-## 7. Próximos passos 
+## 6. Próximos passos 
 
   
 
@@ -315,7 +321,7 @@ Algumas melhorias no projeto podem ser incrementadas no futuro:
 
   
 
-## 6 Referências 
+## 7 Referências 
 
 * Este Projeto foi feito como parte do curso "DS em Produção", da [Comunidade DS](https://www.comunidadedatascience.com/). 
 
