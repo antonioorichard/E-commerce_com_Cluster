@@ -2,7 +2,7 @@
 
 ![Analyzing customer groups](image/online-shopping-4532460_640.jpg) 
 
--------------------------------------------------------------------------------------
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 # 0 Resumo sobre o projeto
 
 # 0.1 Modelo de Negócio
@@ -41,7 +41,8 @@
 * Segmentação de Marketing mais eficientes.
 * Otimização do Estoque.
   ... 
--------------------------------------------------------------------------------------
+
+////////////////////////////////////////////////////////////
 
 Olá, seja bem-vindo(a)! 
 
@@ -351,3 +352,4 @@ Algumas melhorias no projeto podem ser incrementadas no futuro:
 #### Observação:  
 
 **Python 3.12.3** 
+
