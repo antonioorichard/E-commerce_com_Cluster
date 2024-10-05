@@ -261,7 +261,7 @@ Quais ferramentas serão usadas no processo?
 
   
 
-De acordo com os critérios definidos, foi segmentado os clientes em 13 grupos, embora não seja o melhor resultado como mostra a imagem da seção 4.1, mas apresenta um bom resultado. O motivo da escolha de 13 clusters em vez do melhor resultado 23 clusters, é a  facilidade para trabalhar com clientes em menos grupos 
+De acordo com os critérios definidos foi segmentado os clientes em 13 grupos, embora não seja o melhor resultado como mostra a imagem da seção 4.1, mas apresenta um bom resultado. O motivo da escolha de 13 clusters em vez do melhor resultado 23 clusters, é a  facilidade para trabalhar com clientes em menos grupos. 
 
   
 
