@@ -2,21 +2,21 @@
 
 ![Analyzing customer groups](image/online-shopping-4532460_640.jpg) 
 
-# 0 Resumo sobre o projeto
+# 0 - Resumo sobre o projeto
 
-## 0.1 Modelo de Negócio
+## 0.1 - Modelo de Negócio
 
 * E-commerce
 
-## 0.2 Sede da empresa
+## 0.2 - Sede da empresa
 
 * Reino Unido
 
-## 0.3 Tipo de produto
+## 0.3 - Tipo de produto
  
 * Presentes exclusivos.
 
-## 0.4 Problema
+## 0.4 - Problema
 
 * Falta de conhecimento sobre os clientes está levando a ter.
    * Taxa de Retenção Baixa
@@ -26,12 +26,12 @@
    * Problemas de Atendimento ao Cliente
  
 
-## 0.5 Solução
+## 0.5 - Solução
 
 * Cluster - Segmentar a base de clientes.
   * Insights
 
-## 0.6 Impacto da solução
+## 0.6 - Impacto da solução
 
 * Personalizar a experiência ou adptar
   * Comunição.
@@ -58,20 +58,20 @@ Este projeto, seguirá uma metodologia diferente dos demais anteriores, será fe
 
   
 
-## 1. Problema de negócios 
+## 1 - Problema de negócios 
 
-### 1.1 Sobre a empresa 
-
-
+### 1.1 - Sobre a empresa 
 
 
-### 1.2 Problema 
+
+
+### 1.2 - Problema 
 
 O time de negócio da empresa fez uma reunião e gostaria de entender melhor quem são os clientes da empresa para tomar iniciativas mais eficazes em marketing e promoção etc. 
 
   
 
-### 1.3 Motivação 
+### 1.3 - Motivação 
 
 A empresa está querendo realizar uma promoção personalizada para cada grupo de clientes. 
 
@@ -79,7 +79,7 @@ A empresa está querendo realizar uma promoção personalizada para cada grupo d
 
   
 
-### 1.4 Demandas de negócio 
+### 1.4 - Demandas de negócio 
 
   
 
@@ -91,7 +91,7 @@ Produto de dados solicitado:
 
   
 
-## 2. Premissas de negócio 
+## 2 - Premissas de negócio 
 
   
 
@@ -99,7 +99,7 @@ Produto de dados solicitado:
 
   
 
-#### As variáveis do dataset original são: 
+#### 2.1 -As variáveis do dataset original são: 
 
   
 
@@ -120,7 +120,7 @@ Variável | Definição
 
   
 
-#### As variáveis do dataset criadas são: 
+#### 2.2 - As variáveis do dataset criadas são: 
 
   
 
@@ -145,11 +145,11 @@ Variável | Definição
 
   
 
-## 3. Planejamento da solução 
+## 3 - Planejamento da solução 
 
   
 
-### 3.1. Produto final 
+### 3.1 - Produto final 
 
   
 
@@ -163,7 +163,7 @@ O que será entregue efetivamente?
 
   
 
-### 3.2. Ferramentas 
+### 3.2 - Ferramentas 
 
   
 
@@ -183,11 +183,11 @@ Quais ferramentas serão usadas no processo?
 
   
 
-## 4. 3 insights deste negócio 
+## 4.3 - insights deste negócio 
 
   
 
-#### 1 Qual o período do ano que mais vende? 
+#### 1 - Qual o período do ano que mais vende? 
 
   
 
@@ -205,7 +205,7 @@ Quais ferramentas serão usadas no processo?
 
   
 
-#### 2 Qual o período do ano que menos vende? 
+#### 2 - Qual o período do ano que menos vende? 
 
   
 
@@ -221,7 +221,7 @@ Quais ferramentas serão usadas no processo?
 
   
 
-#### 3 Qual país do maior cliente? 
+#### 3 - Qual país do maior cliente? 
 
   
 
@@ -235,24 +235,25 @@ Quais ferramentas serão usadas no processo?
 
   
 
-## 5. Resultados para o negócio 
+## 5 - Resultados para o negócio 
 
   
 
-### 5.1 Resultados do cluster 
+### 5.1 - Resultados do cluster 
 
-#### 5.2 Geral 
+#### 5.2 - Geral 
 
 ![Silhouete Score](image/result_score.jpg)
 
-#### 5.3 Escolhido - Hierarchical Clustering
+
+#### 5.3 - Escolhido - Hierarchical Clustering
   
 
 ![Silhouete Score](image/silhouete_score.jpg) 
 
   
 
-### 5.4 Mapa dos cluster encontrado 
+### 5.4 - Mapa dos cluster encontrado 
 
   
 
@@ -264,7 +265,7 @@ De acordo com os critérios definidos, foi segmentado os clientes em 13 grupos, 
 
   
 
-### 5.5 Como resultado para o negócio foram criados: 
+### 5.5 - Como resultado para o negócio foram criados: 
 
   ![Planilha com a média do perfil dos grupos](image/result.jpg) 
 
@@ -290,7 +291,7 @@ Em relação aos tons de cores deve interpretar o quanto este grupo dar lucro a 
     * Observação: Pode ser tirado mais informações das features criadas em relação aos clientes.
   
 
-## 6. Conclusão 
+## 6 - Conclusão 
 
   
 
@@ -308,7 +309,7 @@ Planilha no google sheets [Planilha com resultados do perfil dos grupos](https:/
 
   
 
-## 7. Próximos passos 
+## 7 - Próximos passos 
 
   
 
@@ -326,7 +327,7 @@ Algumas melhorias no projeto podem ser incrementadas no futuro:
 
   
 
-## 8. Referências 
+## 8 - Referências 
 
 * Este Projeto foi feito como parte do curso "DS em Produção", da [Comunidade DS](https://www.comunidadedatascience.com/). 
 
@@ -337,27 +338,6 @@ Algumas melhorias no projeto podem ser incrementadas no futuro:
   
 
   
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
   
 
   
