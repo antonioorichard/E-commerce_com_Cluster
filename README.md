@@ -241,13 +241,18 @@ Quais ferramentas serão usadas no processo?
 
 ### 5.1 Resultados do cluster 
 
+#### 5.2 Geral 
+
+![Silhouete Score](image/result_score.jpg)
+
+#### 5.3 Escolhido - Hierarchical Clustering
   
 
 ![Silhouete Score](image/silhouete_score.jpg) 
 
   
 
-### 5.2 Mapa dos cluster encontrado 
+### 5.4 Mapa dos cluster encontrado 
 
   
 
@@ -259,7 +264,7 @@ De acordo com os critérios definidos, foi segmentado os clientes em 13 grupos, 
 
   
 
-### 5.3 Como resultado para o negócio foram criados: 
+### 5.5 Como resultado para o negócio foram criados: 
 
   ![Planilha com a média do perfil dos grupos](image/result.jpg) 
 
@@ -285,7 +290,7 @@ Em relação aos tons de cores deve interpretar o quanto este grupo dar lucro a 
     * Observação: Pode ser tirado mais informações das features criadas em relação aos clientes.
   
 
-## 5. Conclusão 
+## 6. Conclusão 
 
   
 
@@ -303,7 +308,7 @@ Planilha no google sheets [Planilha com resultados do perfil dos grupos](https:/
 
   
 
-## 6. Próximos passos 
+## 7. Próximos passos 
 
   
 
@@ -321,7 +326,7 @@ Algumas melhorias no projeto podem ser incrementadas no futuro:
 
   
 
-## 7 Referências 
+## 8. Referências 
 
 * Este Projeto foi feito como parte do curso "DS em Produção", da [Comunidade DS](https://www.comunidadedatascience.com/). 
 
