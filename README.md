@@ -183,7 +183,7 @@ Quais ferramentas serão usadas no processo?
 
   
 
-## 4.3 - insights deste negócio 
+## 3.3 - insights deste negócio 
 
   
 
@@ -235,25 +235,25 @@ Quais ferramentas serão usadas no processo?
 
   
 
-## 5 - Resultados para o negócio 
+## 4 - Resultados para o negócio 
 
   
 
-### 5.1 - Resultados do cluster 
+### 4.1 - Resultados do cluster 
 
-#### 5.2 - Geral 
+#### 4.2 - Geral 
 
 ![Silhouete Score](image/result_score.jpg)
 
 
-#### 5.3 - Escolhido - Hierarchical Clustering
+#### 4.3 - Escolhido - Hierarchical Clustering
   
 
 ![Silhouete Score](image/silhouete_score.jpg) 
 
   
 
-### 5.4 - Mapa dos cluster encontrado 
+### 4.4 - Mapa dos cluster encontrado 
 
   
 
@@ -261,11 +261,11 @@ Quais ferramentas serão usadas no processo?
 
   
 
-De acordo com os critérios definidos, foi segmentado os clientes em 13 grupos, embora não seja o melhor resultado como mostra a imagem da seção 5.1, mas apresenta um bom resultado. O motivo da escolha de 13 clusters em vez do melhor resultado 23 clusters, é a  facilidade para trabalhar com clientes em menos grupos 
+De acordo com os critérios definidos, foi segmentado os clientes em 13 grupos, embora não seja o melhor resultado como mostra a imagem da seção 4.1, mas apresenta um bom resultado. O motivo da escolha de 13 clusters em vez do melhor resultado 23 clusters, é a  facilidade para trabalhar com clientes em menos grupos 
 
   
 
-### 5.5 - Como resultado para o negócio foram criados: 
+### 4.5 - Como resultado para o negócio foram criados: 
 
   ![Planilha com a média do perfil dos grupos](image/result.jpg) 
 
@@ -291,7 +291,7 @@ Em relação aos tons de cores deve interpretar o quanto este grupo dar lucro a 
     * Observação: Pode ser tirado mais informações das features criadas em relação aos clientes.
   
 
-## 6 - Conclusão 
+## 5 - Conclusão 
 
   
 
@@ -309,7 +309,7 @@ Planilha no google sheets [Planilha com resultados do perfil dos grupos](https:/
 
   
 
-## 7 - Próximos passos 
+## 6 - Próximos passos 
 
   
 
@@ -327,7 +327,7 @@ Algumas melhorias no projeto podem ser incrementadas no futuro:
 
   
 
-## 8 - Referências 
+## 7 - Referências 
 
 * Este Projeto foi feito como parte do curso "DS em Produção", da [Comunidade DS](https://www.comunidadedatascience.com/). 
 
